@@ -53,19 +53,21 @@ a {
 
 /* HEADER */
 header h1 { 
-	color: #000; 
-	float:left;  
+	color: #FFF; 
+	float:left; 
+	background-color: #000; 
 	font-size:700%;
-	margin-left:220px;	
+	padding-left:220px;
+	padding-bottom:30px;	
 	width:100%;
 }
 
 header img.picture {
 	margin-left:100px;
-	margin-top:30px;
-	margin-bottom:-50px;
-	width:200px;
+	margin-top:20px;
+	margin-bottom:-60px;
 	height:200px;
+	width:200px;
 }
 
 /* CONTENT */
@@ -90,7 +92,7 @@ footer {
 	float:left;
 	width:47%;
 	padding-left:50px;
-	padding-top:45px;
+	padding-top:55px;
 }
 
 #links {
@@ -104,7 +106,7 @@ footer {
 
 .verticalLine {
 	float:left;
-	margin-top:10px;
+	margin-top:20px;
 	border-right: thick solid #171790;
 	border-width:10px;
 	
