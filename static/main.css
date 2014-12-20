@@ -1,0 +1,111 @@
+/* CSS */
+
+* { margin: 0;}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+background-color: #E9967A;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	font-size: 200%;
+	color: #FFF;
+	text-align: left;
+	padding-top: 0px;
+	padding-left: 0px;
+	font-family: 'PT Sans Narrow';
+	font-size: 1.25em;
+
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 1em;
+	/*color: ;*/
+}
+
+h3 { 
+	color:#191970;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.4em; }
+
+a {
+	text-decoration: none;
+	/*color: ;*/
+}
+
+/* HEADER */
+header h1 { 
+	color: #000; 
+	float:left;  
+	font-size:700%;
+	margin-left:220px;	
+	width:100%;
+}
+
+header img.picture {
+	margin-left:100px;
+	margin-top:30px;
+	margin-bottom:-50px;
+	width:200px;
+	height:200px;
+}
+
+/* CONTENT */
+#content { margin: 10px; }
+
+#content_home {
+	text-align: center;
+	padding-top: 100px;
+}
+
+
+/* FOOTER */
+footer {
+	text-align: center;
+	margin-top: 30px;
+	padding: 5px;
+	/*background: ;*/
+	font-size: 90%;
+}
+
+#about{
+	float:left;
+	width:47%;
+	padding-left:50px;
+	padding-top:45px;
+}
+
+#links {
+	float:left;
+	text-align:right;
+	font-size:380%;
+	margin-left:200px;
+	padding-right:50px;
+	padding-top:60px;
+}
+
+.verticalLine {
+	float:left;
+	margin-top:10px;
+	border-right: thick solid #171790;
+	border-width:10px;
+	
+}
