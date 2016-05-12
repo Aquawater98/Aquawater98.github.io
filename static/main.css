@@ -59,7 +59,7 @@ header h1 {
 	font-size:700%;
 	padding-left:220px;
 	padding-bottom:30px;	
-	width:100%;
+	width: calc(100% - 220px);
 }
 
 header img.picture {
@@ -93,6 +93,7 @@ footer {
 	width:47%;
 	padding-left:50px;
 	padding-top:55px;
+	overflow-y: auto;
 }
 
 #links {
@@ -107,6 +108,7 @@ footer {
 .verticalLine {
 	float:left;
 	margin-top:20px;
+	margin-bottom:20px;
 	border-right: thick solid #171790;
 	border-width:10px;
 	
