@@ -1,115 +1,73 @@
-/* CSS */
-
-* { margin: 0;}
-html, body {
-height: 100%;
-}
-.wrapper {
-min-height: 100%;
-height: auto !important;
-height: 100%;
-margin: 0 auto -4em;
-}
-.footer, .push {
-height: 4em;
-background-color: #E9967A;
-padding-top: 20px;
-padding-left: 20px;
+header {
+    text-align: center;
+    font-size: 48px;
+    color: white;
 }
 
 body {
-	margin: 0;
-	padding: 0;
-	background: #FFF;
-	font-size: 200%;
-	color: #FFF;
-	text-align: left;
-	padding-top: 0px;
-	padding-left: 0px;
-	font-family: 'PT Sans Narrow';
-	font-size: 1.25em;
-
+    margin: 0px;
 }
-
-h1, h2, h3 {
-	margin: 0;
-	padding: 0;
-	font-weight: bold;
-	font-size: 1em;
-	/*color: ;*/
-}
-
-h3 { 
-	color:#191970;
-}
-
-h1 { font-size: 2em; }
-h2 { font-size: 1.4em; }
 
 a {
-	text-decoration: none;
-	/*color: ;*/
+    text-decoration: none; 
+    color: #4885BD
 }
 
-/* HEADER */
-header h1 { 
-	color: #FFF; 
-	float:left; 
-	background-color: #000; 
-	font-size:700%;
-	padding-left:220px;
-	padding-bottom:30px;	
-	width: calc(100% - 220px);
+a:hover {
+    color: #3A6C9E; 
+    transition:0.1s;
 }
 
-header img.picture {
-	margin-left:100px;
-	margin-top:20px;
-	margin-bottom:-60px;
-	height:200px;
-	width:200px;
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
 }
 
-/* CONTENT */
-#content { margin: 10px; }
+li {
+}
 
-#content_home {
-	text-align: center;
-	padding-top: 100px;
+h1 {
+    margin: 0px;
+}
+
+.mainBody {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 24px;
+
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding: 20px 0px;
+    background-color: rgb(0, 255, 255);*/
+}
+
+.links {
+
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 36px;
+    text-align: center;
+}
+
+.intro {
+    background-color: #030D2F;
+    padding: 15px;
+}
+
+.about {
+    padding: 0px 20px;
+    border: 2px solid gray;
+}
+
+@media only screen 
+  and (max-device-width: 480px) {
+    .links ul {
+        flex-direction: column;
+    }
 }
 
 
-/* FOOTER */
-footer {
-	text-align: center;
-	margin-top: 30px;
-	padding: 5px;
-	/*background: ;*/
-	font-size: 90%;
-}
-
-#about{
-	float:left;
-	width:47%;
-	padding-left:50px;
-	padding-top:55px;
-	overflow-y: auto;
-}
-
-#links {
-	float:left;
-	text-align:right;
-	font-size:380%;
-	margin-left:200px;
-	padding-right:50px;
-	padding-top:60px;
-}
-
-.verticalLine {
-	float:left;
-	margin-top:20px;
-	margin-bottom:20px;
-	border-right: thick solid #171790;
-	border-width:10px;
-	
-}
