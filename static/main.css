@@ -64,11 +64,13 @@ h1 {
 }
 
 .about {
-    padding: 0px 20px;
+    padding: 0px 30px;
     border: 2px solid #030D2F;
     background-color: #FFF;
     color: #292626;
 }
+
+/* Classes pertaining to classes.html */
 
 .classesAbout {
     padding: 0px 25px;
@@ -77,9 +79,6 @@ h1 {
     color: #292626;
     line-height: 40px;
 }
-
-
-/* Classes pertaining to classes.html */
 
 .classesTitle {
     text-align: center;
@@ -92,6 +91,30 @@ h1 {
 }
 
 .classesList {
+    padding: 0px 15px;
+}
+
+/* classes pertaining to projects.html */
+
+.projectsAbout {
+    padding: 0px 25px;
+    border: 2px solid #030D2F;
+    background-color: #FFF;
+    color: #292626;
+    line-height: 30px;
+}
+
+.projectsTitle {
+    text-align: center;
+    font-size: 20pt;
+}
+
+.projectsHeading {
+    color: #808080;
+    line-height: 30px;
+}
+
+.projectsList {
     padding: 0px 15px;
 }
 
