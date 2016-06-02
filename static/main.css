@@ -54,8 +54,9 @@ h1 {
 }
 
 .linksChosen {
+    text-decoration: underline; 
     font-weight: bold;
-    color: #B274E6
+    color: #2EA0F7;
 }
 
 .intro {
