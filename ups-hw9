@@ -32,12 +32,8 @@
         <p class="classesList">
           So if all those URLs are examples of real webpages by Amazon, then what kinds of URLs could be fake ones? Many people can be tripped up by seeing just the word "amazon" in the title of a URL, which people who make fraud websites take advantage of. For example, a URL such as "www.amazon-goods.com" or "buy.amazon325.com" may look legitimate at a brief glance, but it's important to note that the domain names of the examples above are really "amazon-goods.com" and "amazon325.com", respectively. Amazon does not own either of those domain names, so those websites are likely attempting to imitate Amazon's webpage.  
         </p>
-
-        <br>
-
-        <p class="classesHeading">Path Names</p>
         <p class="classesList">
-          Path names are normally part of a URL and are indicated by the part of the URL that comes after the first /. Path names are important because they can help us identify the authenticity of a URL. For example, a URL such as "www.amazon.com.goods.com/toys-toddlers" might look legitimate because it contains "amazon.com". However, it's important to take a look at everything before the first /. In reality, "goods.com" is the domain name of this URL, not "amazon.com". The easiest way to determine domain name is to start from the first / and work to the left. Most webpages will have a ".com" or ".net" or a similar extension, and the domain name is normally the name to the left of this extension. If this domain name is not the website name that you're expecting, then you should be wary of trusting this webpage with any personal information.
+          It is possible, however, for an illegitimate URL to contain "amazon.com". For example, a URL such as "www.amazon.com.goods.com/toys-toddlers" might look legitimate because it contains "amazon.com". However, it's important to take a look at everything before the first /. In reality, "goods.com" is the domain name of this URL, not "amazon.com". The easiest way to determine domain name is to start from the first / and work to the left. Most webpages will have a ".com" or ".net" or a similar extension, and the domain name is normally the name to the left of this extension. If this domain name is not the website name that you're expecting, then you should be wary of trusting this webpage with any personal information.
         </p>
 
         <br>
