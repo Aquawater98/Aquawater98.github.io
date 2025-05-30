@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eileen Jiang</title>
+    <meta name="author" content="Eileen Jiang"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/main.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700,400' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  </head>
+  <body>
+    <div class="mainBody">
+      <div class="intro">
+        <header>
+          <h1>Eileen Jiang</h1>
+        </header>
+        <div class="links">
+          <ul>
+            <li><a href="index.html" class="linksChosen">Home</a>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="EileenJiangOfficialResume_2025.pdf" target="_blank">Resume</a></li>
+            <li><a href="https://github.com/Totofufu" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/pub/eileen-jiang/79/47b/a87/" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="about">
+        <p>Hi! My name's Eileen, and I'm currently a backend software engineer
+        at <b>Block</b> living in NYC.</p> 
+
+        <p>I received
+        my B.S. in <b>Computer Science</b> at <b>Carnegie Mellon University</b> in
+        May '17.</p>
+
+        <h3>Square Appointments</h3>
+
+        <p>I currently work on the <b>Square Appointments</b> team,
+        which allows Square sellers to book appointments for their clients and provides a client-facing booking UX as well.</p>
+
+        <p>I recently added <b>Redis locking for Sidekiq</b>, a major job processing framework used for Ruby apps. This lock ensures that a single job with unique arguments will be in the queue or running. This de-duplication ensures highly efficient job processing, especially under periods of high load. The locking is used by all Ruby apps with Sidekiq at Square, and it contributes to a total of <b>450k+ jobs per day de-duplicated</b>.</p>
+
+        <h3>Customers Directory</h3>
+
+        <p>I previously worked on the <b>Customers
+          Directory</b> team,
+        which allows merchants to track and manage their customers.</p>
+        
+        <p>I worked on a project to allow merchants to <b>restore customers that they've accidentally deleted</b>. Previously, Directory did not have an "Undo Delete" feature, and it was common for merchants to accidentally delete large portions of or their entire Directory. I designed and implemented a feature that allowed merchants to recover these accidentally deleted customers. This required ensuring that not just the customer profile, but any of the customer associations, were also restored. Customer associations included payments that the customer had made in the past, marketing emails or feedback the customer had received, notes that the merchant had made under that customer, and more. This added a useful and necessary feature to Directory, as the inability to restore customers they had deleted was a big pain point for merchants.</p>
+
+        <p>I also developed an algorithm to <b>automatically identify and merge together duplicate customer profiles</b> in Directory. This involves finding
+        linkages via email and phone between customer profiles and merging the
+        ones with a high degree of confidence into a common profile. Merchants
+        are able to better identify who their buyers are and consolidate all the
+        information for their customers, which is especially helpful for
+        merchants whose customer count ranges in the tens or hundreds of
+        thousands.</p>
+
+        <h3>Personal Life</h3>
+        
+        <p>In my free time, I like to workout in the gym, read while sipping some hot chocolate, and explore one of NYC's many parks or restaurants.</p>
+        <p>Feel free to get in touch with me! You can contact me at
+        <b>ejiang98@yahoo.com</b>.</p>
+      </div>
+    </div>
+  </body>
+</html>
